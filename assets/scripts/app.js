@@ -45,6 +45,8 @@ function changeHealth(m,p){
     saveToLog();
 }
 function restartGame(){
+    healed = 0;
+    healing = 0;
     playerHealth = 100;
     monsterHealth = 100;
     phEl.value = playerHealth;
